@@ -1,0 +1,38 @@
+<Graph>
+	<VertexCount>10</VertexCount>
+	<EdgeCount>16</EdgeCount>
+	<GraphSize x="4" y="3"/>
+	<Vertices>
+	  <Vertex id="0" x="0" y="0"/>
+	  <Vertex id="1" x="1" y="0"/>
+	  <Vertex id="2" x="2" y="0"/>
+	  <Vertex id="3" x="3" y="0"/>
+	  <Vertex id="4" x="0" y="1"/>
+	  <Vertex id="5" x="1" y="1"/>
+	  <Vertex id="6" x="2" y="1"/>
+	  <Vertex id="7" x="3" y="1"/>
+	  <Vertex id="8" x="0" y="2"/>
+	  <Vertex id="9" x="2" y="2"/>
+	</Vertices>
+	<Edges>
+	  <Edge from="0" to="1"/>
+	  <Edge from="0" to="4"/>
+	  <Edge from="0" to="5"/>
+	  <Edge from="1" to="2"/>
+	  <Edge from="1" to="5"/>
+	  <Edge from="2" to="3"/>
+	  <Edge from="3" to="6"/>
+	  <Edge from="3" to="7"/>
+	  <Edge from="4" to="5"/>
+	  <Edge from="4" to="8"/>
+	  <Edge from="5" to="6"/>
+	  <Edge from="5" to="8"/>
+	  <Edge from="5" to="9"/>
+	  <Edge from="7" to="9"/>
+	</Edges>
+	<Units>
+	  <Unit vertex="2" player="false"/>
+	  <Unit vertex="4" player="true"/>
+	  <Unit vertex="7" player="false"/>
+	</Units>
+</Graph>
